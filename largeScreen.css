@@ -82,7 +82,13 @@ body{
 
     
 }
-
+.ratings div h6{
+    color: hsl(300, 43%, 22%);
+    font-weight:700;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
 
 .people{
     width: 65%;
