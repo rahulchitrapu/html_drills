@@ -28,10 +28,11 @@ body{
     align-items: center;
     margin-top: 3%;
     width: 70%; 
-    
+   
 }
 .discription{
     flex: 1;
+   
 }
 .heading{
     width:80%;
@@ -51,33 +52,27 @@ body{
 }
 .ratings{
     flex: 1;
-     
-     padding: 7px 0px;
+    padding: 15px 0px;
     
+    position: relative;
 }
 .ratings .review1{
     padding: 10px;
-    margin-bottom: 10px;
-    
-
+    margin-bottom: 30px;
 }
 .review2{
     padding: 10px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 30px;
     margin-left: 15%;
-    margin-top: 21px;
-
+    margin-top: 20px;
+    
 }
 .review3{
     padding: 10px;
     margin-left: 30%;
-    margin-top: 21px;
-
     
 }
 .ratings .review{
-    
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -90,13 +85,24 @@ body{
     width: 70%;
     border-radius: 10px;
 }
-.ratings div h6{
+.stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:2px;
+}
+.stars svg{
+    margin-left: 5px;
+}
+
+.ratings div p{
     color: hsl(300, 43%, 22%);
-    font-weight:700;
+    font-weight:900;
+    font-size: larger;
     font-size: 15px;
     text-align: center;
     padding: 10px;
-
 }
 
 .people{
@@ -107,6 +113,7 @@ body{
     align-items: center;
     margin-top: 2%;
     position: relative;
+   
 }
 .card2{
     position: relative;
@@ -129,12 +136,15 @@ body{
     font-size: 15px;
 }
 .card .deatails{
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content:flex-start;
     align-items: center;
     flex-direction: row;
     margin-bottom: 5%;
+    
+    text-align: left;
+
 }
 
 .card .deatails img{
@@ -145,8 +155,12 @@ body{
 }
 .deatails h4{
     color: hsl(333, 80%, 67%);
+    
+}
+.deatails p{
+    font-weight: 900;
+    font-size: 100%;
+    margin-bottom:5px;
+    
 }
 
-.deatails p{
-    line-height: 5px;
-}
