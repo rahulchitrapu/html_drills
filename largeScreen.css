@@ -14,113 +14,118 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
-   
+    align-items: center;
+    
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 5%;
+    font-size: 15px;
 }
 
 .top{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
     align-items: center;
     margin-top: 3%;
-   
     width: 70%; 
-    margin-left: 10%;
+    
 }
 .discription{
-   
-    width: 500px;
+    flex: 1;
 }
 .heading{
-    width: 70%;
-    margin-left: 10%;
+    width:80%;
     color: hsl(300, 43%, 22%);
     text-align:left;
-    font-weight:900;
-    padding: 10px;
+    font-size: 50px;
+    font-weight: 800;
 }
 .content{
     color: hsl(303, 10%, 53%);
     font-weight:400;
     font-size: 15px;
+    margin-top:15px;
     text-align: left;
-    margin-left: 12%;   
+    width: 70%;
+    
 }
 .ratings{
-    width: fit-content; 
-    display: flex;
-    flex-direction: column;
+    flex: 1;
+     
+     padding: 7px 0px;
     
 }
 .ratings .review1{
     padding: 10px;
-    margin: 10px; 
+    margin-bottom: 10px;
+    
 
 }
 .review2{
     padding: 10px;
-    margin: 10px; 
-   margin-left: 75px;
+    margin-bottom: 10px;
+    
+    margin-left: 15%;
+    margin-top: 21px;
+
 }
 .review3{
     padding: 10px;
-    margin: 10px; 
-    margin-left: 150px; 
+    margin-left: 30%;
+    margin-top: 21px;
+
+    
 }
 .ratings .review{
-    width: 100%;
+    
     height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color:hsl(300, 24%, 96%) ;
-    font-weight:400;
+    font-weight:700;
     font-size: 15px;
     text-align: center;
-
-    
+    width: 70%;
+    border-radius: 10px;
 }
 .ratings div h6{
     color: hsl(300, 43%, 22%);
     font-weight:700;
     font-size: 15px;
     text-align: center;
-    padding-top: 10px;
+    padding: 10px;
+
 }
 
 .people{
-    width: 65%;
-   
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    margin:5% 18%;
+    margin-top: 2%;
     position: relative;
 }
 .card2{
     position: relative;
-    top: 25px;
+    top: 25px; 
+    margin-left: 20px;
 }
 .card3{
     position: relative;
-    top:50px;
+    top:50px; 
+    margin-left: 20px;
 }
 .card{
-    width: 380px;
+    flex: 1;
     height: fit-content;
     background-color: hsl(300, 43%, 22%); 
-    margin:0px 10px;
     border-radius: 10px;
     padding: 30px;
     color: hsl(0, 0%, 100%);
     text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:flex-start;
     font-size: 15px;
 }
 .card .deatails{
@@ -139,5 +144,9 @@ body{
     margin-right: 20px;
 }
 .deatails h4{
-    color: hsl(333, 80%, 67%)
+    color: hsl(333, 80%, 67%);
+}
+
+.deatails p{
+    line-height: 5px;
 }
