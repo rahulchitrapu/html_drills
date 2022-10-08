@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+    background-position:top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    font-family: "Spartan";
+    
+}
+
+.heading{
+    width: 70%;
+    margin: 15vw;
+    margin-bottom: 5vw;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    font-weight:700;
+   
+    /* border: 1px solid red; */
+}
+.heading span{
+    font-size:larger;
+}
+
+.content{
+    color: hsl(303, 10%, 53%);
+    font-weight:400;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.ratings, .people{
+   
+    margin: 15px;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ratings .review{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color:hsl(300, 24%, 96%) ;
+    font-weight:400;
+    font-size: 15px;
+}
+
+.ratings div h6{
+    color: hsl(300, 43%, 22%);
+    font-weight:700;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card{
+    background-color: hsl(300, 43%, 22%); 
+    margin:10px 0px;
+    border-radius: 10px;
+    padding: 15px;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    font-size: 15px;
+}
+.card .deatails{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+}   
+
+.card .deatails img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+   
+    margin-right:20px;
+}
+
+.card .deatails h4{
+    color: hsl(333, 80%, 67%);
+}
+

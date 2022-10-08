@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+   
+    background-image: url("/images/bg-pattern-top-desktop.svg") ,url("/images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left , bottom right;
+    font-family: "Spartan";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+   
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 3%;
+   
+    width: 70%; 
+    margin-left: 10%;
+}
+.discription{
+   
+    width: 500px;
+}
+.heading{
+    width: 70%;
+    margin-left: 10%;
+    color: hsl(300, 43%, 22%);
+    text-align:left;
+    font-weight:900;
+    padding: 10px;
+}
+.content{
+    color: hsl(303, 10%, 53%);
+    font-weight:400;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 12%;   
+}
+.ratings{
+    width: fit-content; 
+    display: flex;
+    flex-direction: column;
+    
+}
+.ratings .review1{
+    padding: 10px;
+    margin: 10px; 
+
+}
+.review2{
+    padding: 10px;
+    margin: 10px; 
+   margin-left: 75px;
+}
+.review3{
+    padding: 10px;
+    margin: 10px; 
+    margin-left: 150px; 
+}
+.ratings .review{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:hsl(300, 24%, 96%) ;
+    font-weight:400;
+    font-size: 15px;
+    text-align: center;
+
+    
+}
+
+
+.people{
+    width: 65%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin:5% 18%;
+    position: relative;
+}
+.card2{
+    position: relative;
+    top: 25px;
+}
+.card3{
+    position: relative;
+    top:50px;
+}
+.card{
+    width: 380px;
+    height: fit-content;
+    background-color: hsl(300, 43%, 22%); 
+    margin:0px 10px;
+    border-radius: 10px;
+    padding: 30px;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    font-size: 15px;
+}
+.card .deatails{
+    width: 70%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.card .deatails img{
+    border-radius: 50% 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.deatails h4{
+    color: hsl(333, 80%, 67%)
+}
