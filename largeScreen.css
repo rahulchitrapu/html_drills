@@ -94,6 +94,7 @@ body{
 }
 .stars svg{
     margin-left: 5px;
+    white-space: nowrap;
 }
 
 .ratings div p{
@@ -103,6 +104,7 @@ body{
     font-size: 15px;
     text-align: center;
     padding: 10px;
+    white-space: pre;
 }
 
 .people{
@@ -156,12 +158,12 @@ body{
 }
 .deatails h4{
     color: hsl(333, 80%, 67%);
-    
+    white-space: pre;
 }
 .deatails p{
     font-weight: 900;
     font-size: 100%;
     margin-bottom:5px;
-    
+    white-space: pre;
 }
 
